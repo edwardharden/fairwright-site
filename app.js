@@ -92,7 +92,7 @@
         h += '<div class="consent-box">You told us you\'re just researching, so we won\'t pass your details to a builder. We\'ll email you our free loft conversion cost guide instead. You can ask for a quote whenever you\'re ready.</div>'
           +'<label class="check"><input type="checkbox" name="guide"> Email me the free cost guide and occasional loft planning tips. I can unsubscribe at any time. (required)</label>';
       } else {
-        h += '<div class="consent-box"><strong>Who will contact you:</strong> By submitting, you ask Fairwright to pass your details to one vetted loft conversion firm covering your postcode. They\'ll contact you by phone, email or text about your loft conversion quote. See our <a href="#">privacy notice</a>.'
+        h += '<div class="consent-box"><strong>Who will contact you:</strong> By submitting, you ask Fairwright to pass your details to one vetted loft conversion firm covering your postcode. They\'ll contact you by phone, email or text about your loft conversion quote. See our <a href="privacy.html" target="_blank" rel="noopener">privacy notice</a>.'
           +'<span class="note">Before launch: the names of the partner firms in your area will be listed here.</span></div>'
           +'<label class="check"><input type="checkbox" name="share"> I agree to my details being shared with this firm so they can contact me about my quote. (required)</label>'
           +'<label class="check"><input type="checkbox" name="tips"> Send me occasional loft planning tips by email. I can unsubscribe at any time. (optional)</label>';

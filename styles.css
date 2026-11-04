@@ -214,3 +214,21 @@ figcaption{position:absolute;right:.6rem;bottom:.6rem;font-size:.7rem;background
 @media (max-width:560px){.logo .stamp{width:36px;height:36px}.lock-name{font-size:1.3rem}.lock-tag{font-size:.55rem}.logo-footer .lock-name{font-size:2rem}.logo-footer .stamp{width:52px;height:52px}}
 .field input::placeholder{text-transform:none}
 .types-layout-drawing{grid-template-columns:1fr 1fr;align-items:center}
+
+/* Legal pages */
+.legal{padding:clamp(3rem,7vw,5.5rem) 0 clamp(4rem,8vw,6rem)}
+.legal .wrap{max-width:760px}
+.legal h1{font-family:var(--font-display);font-weight:500;font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.1;letter-spacing:-.01em}
+.legal .updated{color:var(--muted);font-size:var(--text-sm);margin:.8rem 0 2.2rem}
+.legal h2{max-width:none;font-family:var(--font-display);font-weight:500;font-size:1.45rem;line-height:1.25;margin:2.6rem 0 .8rem;padding-top:1.6rem;border-top:1px solid var(--line)}
+.legal h3{font-size:1rem;font-weight:600;margin:1.4rem 0 .4rem}
+.legal p,.legal li{color:var(--ink-2);max-width:68ch}
+.legal p+p{margin-top:.8rem}
+.legal ul{margin:.6rem 0 .6rem 1.2rem}
+.legal li{margin:.35rem 0}
+.legal a{color:var(--green);text-decoration:underline;text-underline-offset:2px}
+.legal table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:var(--text-sm)}
+.legal th,.legal td{text-align:left;vertical-align:top;padding:.7rem .8rem;border-bottom:1px solid var(--line);color:var(--ink-2)}
+.legal th{color:var(--ink);font-weight:600;background:var(--paper-2)}
+.legal .summary{background:var(--paper-2);border-left:3px solid var(--green);padding:1.1rem 1.3rem;margin-bottom:1rem}
+@media (max-width:640px){.legal table,.legal thead,.legal tbody,.legal tr,.legal th,.legal td{display:block}.legal thead{display:none}.legal tr{border-bottom:1px solid var(--line);padding:.6rem 0}.legal td{border:0;padding:.2rem 0}.legal td:first-child{font-weight:600;color:var(--ink)}}
