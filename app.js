@@ -180,8 +180,8 @@
       } else {
         h += '<div class="tick"></div><h2 id="q-title" tabindex="-1">Thanks '+esc(d.first)+', we\'re matching you now</h2>'
           +'<p class="q-help">Here\'s what happens next:</p><ul>'
-          +'<li>We\'ve emailed you a confirmation. We\'ll also email you the name of the vetted firm you\'ve been matched with.</li>'
-          +'<li>They\'ll call you in the '+esc(d.calltime.toLowerCase())+', usually within one working day, to arrange a survey.</li>'
+          +'<li>We\'ve emailed you a confirmation. Within 2 working days we\'ll email you the name of the vetted firm you\'ve been matched with.</li>'
+          +'<li>That firm will then contact you, ideally in the '+esc(d.calltime.toLowerCase())+', to arrange a survey.</li>'
           +'<li>After the survey they\'ll give you a written quote. There\'s no obligation to go ahead.</li></ul>';
       }
       h += ''
